@@ -1,0 +1,62 @@
+/******************************** TAG SELECTOR ******************************/
+
+body {
+    background-color:#EAFDFC;
+    font-family: Arial;
+    
+}
+
+/*Usado para alterar a cor do texto h3 */
+h3 {
+    color: #349685;
+}
+
+hr {
+    border-style: none;
+    background-color: white;
+    height: 2px; 
+    
+    /*Usado para deixar a borda apenas como pontos
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 30px;
+    */
+}
+
+/*Usado para que a largura do que foi escrito seja de, no máximo, 70% da tela */
+li {
+    max-width: 70%;
+}
+
+p {
+    max-width: 70%;
+}
+
+/******************************** CLASS SELECTOR ******************************/
+
+.footer1 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #86C8BC;
+}
+
+.footer2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #86C8BC;
+}
+
+/******************************** ID SELECTOR ******************************/
+
+#contato {
+    color: #349685;
+    text-align: center;
+}
